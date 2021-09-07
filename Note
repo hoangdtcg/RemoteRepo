@@ -1,0 +1,64 @@
+5W2H:
+5W:
+- What? - Git là gì?
+- Why? - Tại sao cần dùng git?
+- When?
+- Where?
+- Who?
+2H:
+- How? - Thao tác với git như nào?
+- How much? - Chi phí bỏ ra là bao nhiêu?
+
+Bài đọc - Bài thực hành - What? How?
+Hiểu - Why? (When? Where?) => Giờ lý thuyết
+
+Tại sao lại cần git?
+- Để lưu trữ và đồng bộ dữ liệu
+- Dễ dàng cộng tác
+- Dễ dàng thao với mã nguồn
+
+
+Bình thường:
+- Nén file và gửi hoặc usb
+
+Git với Github khác nhau như nào?
+- Công cụ để quản lý mã nguồn - Folder => Repository(Repo)
+- Github : Nơi lưu trữ các repo để mọi người có thể cộng tác
+
+Snapshot - Bản chụp lại dự án ở 1 thời điểm
+Mỗi lần commit sẽ tạo ra 1 cái snapshot
+
+Khởi tạo: git init
+Kết nối remote: git remote add origin <link>
+Kiểm tra kết nối: git remote -v
+(Chỉ thực hiện 1 lần)
+
+Đưa ra thay đổi: git add .(tất cả) hoặc <tênfile>
+Kiểm tra thay đổi trước khi commit: git status
+Đóng gói các thay đổi: git commit -m(message) "nội dung của commit"
+Đưa thay đổi lên remote: git push origin master
+(Khi muốn cập nhật thay đổi từ local repo lên remote repo)
+
+Lưu ý: Không để git lồng git
+
+Git là phân tán? phân tán khác gì với tập trung??
+
+HTML:
+What?: HTML là gì? - Hypertext markup language (HyperText >< Text)
+Text - văn bản
+HyperText - Văn bản
+          - Media - Âm thanh, hình ảnh, video....
+Markup - Tags
+    - h(1-6) (heading) - Tiêu đề
+    - p(paragraph) - Văn bản
+    - span - Văn bản
+
+Thẻ block: Chiếm cả dòng - p
+Thẻ inline: chiếm bằng độ dài - span
+
+Thẻ HTML có nhiều thuộc tính (attribute)
+[tên thuộc tính] = "giá trị"
+
+CSS
+Chỉnh bố cục hiển thị của HTML
+div - division (khu vực)
